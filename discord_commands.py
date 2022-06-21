@@ -26,4 +26,4 @@ async def dozi(message) :
     await message.send('<:YoshiBike:969914599178666054>')
 
 
-commandbot.run(DISCORD_TOKEN)
+commandbot.run(os.getenv('DISCORD_TOKEN'))
